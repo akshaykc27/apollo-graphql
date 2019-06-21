@@ -11,7 +11,9 @@ Environment variables:
   - GDK_PIXBUF_MODULE_FILE=/home/admin1/snap/vscode/common/.cache/gdk-pixbuf-loaders.cache
   - GDMSESSION=ubuntu
   - GIO_LAUNCHED_DESKTOP_FILE=/var/lib/snapd/desktop/applications/vscode_vscode.desktop
-  - GIO_LAUNCHED_DESKTOP_FILE_PID=13387
+  - GIO_LAUNCHED_DESKTOP_FILE_PID=19141
+  - GJS_DEBUG_OUTPUT=stderr
+  - GJS_DEBUG_TOPICS=JS ERROR;JS LOG
   - GNOME_DESKTOP_SESSION_ID=this-is-deprecated
   - GNOME_SHELL_SESSION_MODE=ubuntu
   - GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
@@ -35,11 +37,11 @@ Environment variables:
   - QT4_IM_MODULE=xim
   - QT_ACCESSIBILITY=1
   - QT_IM_MODULE=xim
-  - SESSION_MANAGER=local/admin1-desktop:@/tmp/.ICE-unix/4665,unix/admin1-desktop:/tmp/.ICE-unix/4665
+  - SESSION_MANAGER=local/admin1-desktop:@/tmp/.ICE-unix/4608,unix/admin1-desktop:/tmp/.ICE-unix/4608
   - SHELL=/bin/bash
   - SHLVL=2
   - SONARQUBE_SCANNER_PARAMS={}
-  - SSH_AGENT_PID=4760
+  - SSH_AGENT_PID=4703
   - SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
   - TERM=xterm-256color
   - TERM_PROGRAM=vscode
@@ -99,7 +101,7 @@ System properties:
 
   - os.arch=amd64
   - os.name=Linux
-  - os.version=4.15.0-50-generic
+  - os.version=4.15.0-51-generic
   - path.separator=:
   - project.home=/home/admin1/Desktop/apollo graphql
   - scanner.home=/home/admin1/.sonar/native-sonar-scanner/sonar-scanner-3.3.0.1492-linux
@@ -134,9 +136,9 @@ SonarQube plugins:
   - SonarJS 3.2.0.5506 (javascript)
 Global properties:
   - sonar.core.id=AWrd2NUmBkNNMrM3zlKO
-  - sonar.core.startTime=2019-06-01T04:27:29+0000
+  - sonar.core.startTime=2019-06-20T05:08:03+0000
 Settings for module: apollo_graphql
-  - sonar.exclusions=node_modules/**/*
+  - sonar.exclusions=data
   - sonar.host.url=http://localhost:9000
   - sonar.projectBaseDir=/home/admin1/Desktop/apollo graphql
   - sonar.projectKey=apollo_graphql
@@ -146,5 +148,6 @@ Settings for module: apollo_graphql
   - sonar.scanner.appVersion=3.3.0.1492
   - sonar.sourceEncoding=UTF-8
   - sonar.sources=.
+  - sonar.test=test
   - sonar.verbose=true
   - sonar.working.directory=/home/admin1/Desktop/apollo graphql/.scannerwork
